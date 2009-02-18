@@ -19,7 +19,7 @@ BuildArch:      noarch
 
 Patch0:         mingw32-pdcurses-3.4-build.patch
 
-BuildRequires:  mingw32-filesystem >= 26
+BuildRequires:  mingw32-filesystem
 BuildRequires:  mingw32-gcc
 BuildRequires:  mingw32-binutils
 

@@ -6,7 +6,7 @@
 
 Name:           mingw32-pdcurses
 Version:        3.4
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Curses library for MinGW
 
 License:        Public Domain

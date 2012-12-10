@@ -6,7 +6,7 @@
 
 Name:           mingw32-pdcurses
 Version:        3.4
-Release:        %mkrel 2
+Release:        %mkrel 1
 Summary:        Curses library for MinGW
 
 License:        Public Domain
@@ -82,3 +82,13 @@ rm -rf $RPM_BUILD_ROOT
 %{_mingw32_bindir}/tuidemo.exe
 %{_mingw32_bindir}/xmas.exe
 %{_mingw32_bindir}/worm.exe
+
+
+%changelog
+* Wed Feb 18 2009 Jérôme Soyer <saispo@mandriva.org> 3.4-1mdv2009.1
++ Revision: 342340
+- Fix CC in patch
+- Fix BR
+- import mingw32-pdcurses
+
+

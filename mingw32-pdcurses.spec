@@ -11,7 +11,7 @@ Summary:        Curses library for MinGW
 
 License:        Public Domain
 Group:          Development/Other
-URL:            http://pdcurses.sourceforge.net/
+URL:            https://pdcurses.sourceforge.net/
 Source0:        http://dl.sourceforge.net/sourceforge/pdcurses/PDCurses-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
